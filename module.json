@@ -1,27 +1,26 @@
 {
-  "id": "token-action-hud-template",
-  "title": "Token Action HUD Template",
+  "id": "token-action-hud-nimble",
+  "title": "Token Action HUD Nimble",
   "description": "Token Action HUD is a repositionable HUD of actions for a selected token",
   "authors": [
     {
-      "name": "Larkinabout",
-      "url": "https://github.com/Larkinabout"
+      "name": "jwatzek",
+      "url": "https://github.com/jwatzek"
     }
   ],
   "url": "This is auto replaced",
   "flags": {},
   "version": "This is auto replaced",
   "compatibility": {
-    "minimum": "11",
-    "verified": "11.313"
+    "minimum": "13",
+    "verified": "13"
   },
   "esmodules": [
     "./scripts/init.js"
   ],
-  "scripts": [
-  ],
+  "scripts": [],
   "styles": [
-    "./styles/tah-template-style.css"
+    "./styles/tah-nimble-style.css"
   ],
   "languages": [
     {
@@ -34,12 +33,12 @@
   "relationships": {
     "systems": [
       {
-        "id": "template",
+        "id": "nimble",
         "type": "system",
         "compatibility": [
           {
-            "minimum": "1.0.0",
-            "verified": "1.0.0"
+            "minimum": "0.4.0",
+            "verified": "0.4.0"
           }
         ]
       }
@@ -50,9 +49,9 @@
         "type": "module",
         "compatibility": [
           {
-            "minimum": "1.5.0",
-            "maximum": "1.5",
-            "verified": "1.5.0"
+            "minimum": "2.0",
+            "maximum": "2.0.99",
+            "verified": "2.0.16"
           }
         ]
       }
@@ -65,7 +64,7 @@
   "socket": false,
   "manifest": "This is auto replaced",
   "download": "This is auto replaced",
-  "readme": "https://github.com/Larkinabout/fvtt-token-action-hud-template#readme",
+  "readme": "https://github.com/jwatzek/token-action-hud-nimble#readme",
   "protected": false,
   "coreTranslation": false,
   "library": false
